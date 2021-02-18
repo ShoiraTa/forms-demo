@@ -55,7 +55,14 @@
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
           dolore blanditiis quo, voluptates nesciunt molestiae commodi
           recusandae ab unde? Eligendi. voluptates nesciunt molestiae commodi
-          recusandae ab unde? Eligendi.
+          recusandae ab unde? Eligendi. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Quaerat nemo reprehenderit corporis voluptate. In
+          esse, libero vitae omnis ducimus mabr gnam. <br /><br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde atque
+          facilis ab dicta quos animi voluptatibus vero saepe quidem
+          error.molestiae commodi recusandae ab unde? Eligendi. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Quaerat nemo
+          reprehenderit corporis voluptate. In voluptate
         </p>
         <h3>Why attend?</h3>
         <ul>
@@ -69,11 +76,23 @@
       <div class="main-form">
         <div class="name">
           <label for="name">Name</label> <br />
-          <input type="text" id="name" placeholder="Full name" required />
+          <input
+            type="text"
+            id="name"
+            placeholder="Full name"
+            required
+            maxlength="20"
+          />
         </div>
         <div class="email">
-          <label for="email">Email</label><br />
-          <input type="email" id="email" placeholder="Email adress" required />
+          <label for="email">Email adress</label> <br />
+          <input
+            type="email"
+            id="email"
+            placeholder="Email adress"
+            required
+            maxlength="20"
+          />
         </div>
         <div class="number">
           <label for="number">Number of passes</label><br />
@@ -84,11 +103,34 @@
             <option value="4">4</option>
           </select>
         </div>
+        <div class="opinion">
+          <label for="opinion"
+            >What is your overall opinion <br />
+            about this article?</label
+          ><br />
+          <select name="opinion" id="opinion">
+            <option value="positive">Positive</option>
+            <option value="negative">Negative</option>
+            <option value="neutral">Neutral</option>
+          </select>
+        </div>
+        <div>
+          <label for="checkbox">Subscribe to the newsletter</label>
+          <div class="checkbox"><input type="checkbox" id="checkbox" /></div>
+        </div>
         <div class="comments">
           <label for="comments">Comments</label><br />
-          <textarea name="comments" id="comments" cols="22" rows="6"></textarea>
+          <textarea
+            name="comments"
+            placeholder="Type your comment here…"
+            id="comments"
+            cols="22"
+            rows="6"
+            required
+            maxlength="50"
+          ></textarea>
         </div>
-        <button type="submit">Purchase</button>
+        <button type="submit">Send</button>
       </div>
     </main>
     <footer>

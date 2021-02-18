@@ -78,13 +78,14 @@ main {
 }
 
 .main-text {
-  width: 800px;
+  width: 750px;
 }
 
 h3 {
   padding: 10px 10px 10px 0;
   letter-spacing: 1px;
   font-family: "Lato", sans-serif;
+  font-weight: 700;
 }
 
 .main-text p {
@@ -103,7 +104,7 @@ h3 {
 }
 
 .main-form {
-  width: 300px;
+  width: 350px;
   padding: 10px;
 }
 
@@ -117,13 +118,24 @@ textarea {
   border-radius: 5px;
   border: solid 1px #628074;
   padding: 5px;
-  margin: 5px 0 20px 0;
+  margin: 8px 0 25px 0;
   outline: #283f51;
+  color: #283f51;
 }
 
 input,
 textarea {
-  width: 210px;
+  width: 250px;
+}
+
+.checkbox {
+  width: 15px;
+  display: inline-block;
+}
+
+.checkbox #checkbox {
+  width: 30px;
+  padding-top: 5px;
 }
 
 textarea {
