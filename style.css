@@ -85,3 +85,38 @@ h3 {
   line-height: 5px;
   font-size: 18px;
 }
+.main-form {
+  width: 300px;
+  padding: 10px;
+}
+label {
+  font-weight: 700;
+}
+input,
+select,
+textarea {
+  border-radius: 5px;
+  border: solid 1px #628074;
+  padding: 5px;
+  margin: 5px 0px 20px 0;
+}
+
+input,
+textarea {
+  width: 210px;
+}
+textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  padding: 10px;
+  outline: #283f51;
+}
+button {
+  background-color: #283f51;
+  color: #fff;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: 600;
+}
