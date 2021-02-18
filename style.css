@@ -4,6 +4,8 @@
   text-decoration: none;
 }
 
+/* navbar */
+
 nav,
 footer {
   display: flex;
@@ -13,6 +15,7 @@ footer {
   color: #a6b0b7;
   align-items: center;
 }
+
 .left {
   font-family: "Lato", sans-serif;
   padding: 20px 40px 20px 40px;
@@ -20,6 +23,7 @@ footer {
   letter-spacing: 5px;
   line-height: 48px;
 }
+
 ul {
   display: flex;
 }
@@ -34,30 +38,19 @@ ul {
   padding-left: 5px;
   padding-bottom: 8px;
 }
+
 li {
   list-style: none;
   margin-top: 20px;
 }
+
 ul li a {
   color: #fff;
   padding: 10px 10px 8px 8px;
 }
-/*border: solid 1px black;*/
-.nav-2 {
-  height: 150px;
-  background-color: #d4e6c4;
-  font-family: "Open Sans", sans-serif;
-  color: #739789;
-  padding: 50px 10px 0px 40px;
-  text-align: center;
-}
-.nav-2 H1 {
-  padding-bottom: 20px;
-}
-.nav-2 p {
-  width: 800px;
-  margin: 0 auto;
-}
+
+/* main */
+
 main {
   color: #628074;
   display: flex;
@@ -66,52 +59,78 @@ main {
   font-size: 20px;
 }
 
+.nav-2 {
+  height: 150px;
+  background-color: #d4e6c4;
+  font-family: "Open Sans", sans-serif;
+  color: #739789;
+  padding: 50px 10px 0 40px;
+  text-align: center;
+}
+
+.nav-2 h1 {
+  padding-bottom: 20px;
+}
+
+.nav-2 p {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .main-text {
   width: 800px;
 }
+
 h3 {
-  padding: 10px 10px 10px 0px;
+  padding: 10px 10px 10px 0;
   letter-spacing: 1px;
   font-family: "Lato", sans-serif;
 }
+
 .main-text p {
   padding-bottom: 10px;
 }
+
 .main-text ul {
   flex-direction: column;
   padding-left: 30px;
 }
+
 .li-2 {
   list-style: square;
   line-height: 5px;
   font-size: 18px;
 }
+
 .main-form {
   width: 300px;
   padding: 10px;
 }
+
 label {
   font-weight: 700;
 }
+
 input,
 select,
 textarea {
   border-radius: 5px;
   border: solid 1px #628074;
   padding: 5px;
-  margin: 5px 0px 20px 0;
+  margin: 5px 0 20px 0;
+  outline: #283f51;
 }
 
 input,
 textarea {
   width: 210px;
 }
+
 textarea {
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: "Lato", sans-serif;
   padding: 10px;
-  outline: #283f51;
 }
+
 button {
   background-color: #283f51;
   color: #fff;
@@ -121,6 +140,9 @@ button {
   border-radius: 5px;
   font-weight: 600;
 }
+
+/* footer */
+
 footer {
   height: 100px;
   padding: 0 50px 0 50px;
