@@ -48,7 +48,7 @@
     </div>
     <main>
       <div class="main-text">
-        <h3>Purchase a conference pass</h3>
+        <h3>Purchase a Conference Pass</h3>
         <p>$99 per pass</p>
         <br />
         <p>
@@ -57,23 +57,33 @@
           recusandae ab unde? Eligendi. voluptates nesciunt molestiae commodi
           recusandae ab unde? Eligendi.
         </p>
-        <h4>Why attend?</h4>
+        <h3>Why attend?</h3>
         <ul>
-          <li>Lorem ipsum</li>
-          <li>Lorem ipsum dolor sit a</li>
-          <li>Lorem ipsum dolor</li>
-          <li>Lorem ipsum dolor sit amet</li>
+          <li class="li-2">Lorem ipsum</li>
+          <li class="li-2">Lorem ipsum dolor sit a</li>
+          <li class="li-2">Lorem ipsum dolor</li>
+          <li class="li-2">Lorem ipsum dolor sit amet</li>
         </ul>
       </div>
+
       <div class="main-form">
         <div class="name">
           <label for="name" id="name"></label>
-          <input type="text" id="name" placeholder="Full name" />
+          <input type="text" id="name" placeholder="Full name" required />
         </div>
         <div class="email">
           <label for="email" id="email"></label>
-          <input type="email" id="email" placeholder="Email adress" />
+          <input type="email" id="email" placeholder="Email adress" required />
         </div>
+        <div class="number">
+          <label for="number" id="number"></label>
+          <input type="number" id="number" min="1" required />
+        </div>
+        <div class="comments">
+          <label for="comments"></label>
+          <textarea name="comments" id="comments" cols="22" rows="6"></textarea>
+        </div>
+        <button type="submit">Purchase</button>
       </div>
     </main>
   </body>

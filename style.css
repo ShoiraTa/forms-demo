@@ -14,7 +14,6 @@ nav {
 }
 .left {
   font-family: "Lato", sans-serif;
-
   padding: 20px 40px 20px 40px;
   font-size: 50px;
   letter-spacing: 5px;
@@ -57,4 +56,32 @@ ul li a {
 .nav-2 p {
   width: 800px;
   margin: 0 auto;
+}
+main {
+  color: #628074;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  font-size: 20px;
+}
+
+.main-text {
+  width: 800px;
+}
+h3 {
+  padding: 10px 10px 10px 0px;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+}
+.main-text p {
+  padding-bottom: 10px;
+}
+.main-text ul {
+  flex-direction: column;
+  padding-left: 30px;
+}
+.li-2 {
+  list-style: square;
+  line-height: 5px;
+  font-size: 18px;
 }
