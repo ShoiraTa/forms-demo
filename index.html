@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Form</title>
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <p>
+          styles <br />
+          conference
+        </p>
+      </div>
+      <div class="right-nav">
+        <p class="venue">august 24-26 Chicago, IL</p>
+        <div class="nav-bar">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">speakers</a></li>
+            <li><a href="#">schedule</a></li>
+            <li><a href="#">venue</a></li>
+            <li><a href="#">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="nav-2">
+      <h1>Register</h1>
+      <p>
+        Every year we aim to have unbelivable time, and this year we'd love you
+        to join us. Conference passes oonly cost $99. One of the best values you
+        will find
+      </p>
+    </div>
+    <main>
+      <div class="main-text">
+        <h3>Purchase a Conference Pass</h3>
+        <p>$99 per pass</p>
+        <br />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          dolore blanditiis quo, voluptates nesciunt molestiae commodi
+          recusandae ab unde? Eligendi. voluptates nesciunt molestiae commodi
+          recusandae ab unde? Eligendi. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Quaerat nemo reprehenderit corporis voluptate. In
+          esse, libero vitae omnis ducimus mabr gnam. <br /><br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde atque
+          facilis ab dicta quos animi voluptatibus vero saepe quidem
+          error.molestiae commodi recusandae ab unde? Eligendi. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Quaerat nemo
+          reprehenderit corporis voluptate. In voluptate
+        </p>
+        <h3>Why attend?</h3>
+        <ul>
+          <li class="li-2">Lorem ipsum</li>
+          <li class="li-2">Lorem ipsum dolor sit a</li>
+          <li class="li-2">Lorem ipsum dolor</li>
+          <li class="li-2">Lorem ipsum dolor sit amet</li>
+        </ul>
+      </div>
+
+      <div class="main-form">
+        <div class="name">
+          <label for="name">Name</label> <br />
+          <input
+            type="text"
+            id="name"
+            placeholder="Full name"
+            required
+            maxlength="20"
+          />
+        </div>
+        <div class="email">
+          <label for="email">Email adress</label> <br />
+          <input
+            type="email"
+            id="email"
+            placeholder="Email adress"
+            required
+            maxlength="20"
+          />
+        </div>
+        <div class="number">
+          <label for="number">Number of passes</label><br />
+          <select name="number" id="number">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+        <div class="opinion">
+          <label for="opinion"
+            >What is your overall opinion <br />
+            about this article?</label
+          ><br />
+          <select name="opinion" id="opinion">
+            <option value="positive">Positive</option>
+            <option value="negative">Negative</option>
+            <option value="neutral">Neutral</option>
+          </select>
+        </div>
+        <div>
+          <label for="checkbox">Subscribe to the newsletter</label>
+          <div class="checkbox"><input type="checkbox" id="checkbox" /></div>
+        </div>
+        <div class="comments">
+          <label for="comments">Comments</label><br />
+          <textarea
+            name="comments"
+            placeholder="Type your comment here…"
+            id="comments"
+            cols="22"
+            rows="6"
+            required
+            maxlength="50"
+          ></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </div>
+    </main>
+    <footer>
+      <p>Styles conference</p>
+      <div class="footer-nav">
+        <ul>
+          <li>Home</li>
+          <li>Speakers</li>
+          <li>Venue</li>
+          <li>Register</li>
+          <li>Schedule</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
